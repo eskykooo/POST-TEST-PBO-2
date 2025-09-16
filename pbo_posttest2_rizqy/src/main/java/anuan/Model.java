@@ -5,14 +5,12 @@ public class Musik {
     private String artis;
     private String genre;
 
-    // Constructor
     public Musik(String judul, String artis, String genre) {
         this.judul = judul;
         this.artis = artis;
         this.genre = genre;
     }
 
-    // Getter & Setter
     public String getJudul() { return judul; }
     public void setJudul(String judul) { this.judul = judul; }
 
@@ -27,3 +25,4 @@ public class Musik {
         return judul + " - " + artis + " [" + genre + "]";
     }
 }
+
