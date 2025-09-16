@@ -1,0 +1,67 @@
+cd E:\SEMESTER 3\PBO\PRAKTIKUM\pbo_posttest2_rizqy; "JAVA_HOME=C:\\Program Files\\Apache NetBeans\\jdk" cmd /c "\"C:\\Program Files\\Apache NetBeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" \"-Dexec.executable=C:\\Program Files\\Apache NetBeans\\jdk\\bin\\java.exe\" -Dexec.mainClass=anuan.Main -Dexec.classpathScope=runtime -Dexec.appArgs= \"-Dmaven.ext.class.path=C:\\Program Files\\Apache NetBeans\\java\\maven-nblib\\netbeans-eventspy.jar\" --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.1.0:exec"
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldBase has been called by com.google.inject.internal.aop.HiddenClassDefiner (file:/C:/Program%20Files/Apache%20NetBeans/java/maven/lib/guice-5.1.0-classes.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.inject.internal.aop.HiddenClassDefiner
+WARNING: sun.misc.Unsafe::staticFieldBase will be removed in a future release
+Scanning for projects...
+
+-----------------< com.mycompany:pbo_posttest2_rizqy >------------------
+Building pbo_posttest2_rizqy 1.0-SNAPSHOT
+  from pom.xml
+--------------------------------[ jar ]---------------------------------
+
+--- resources:3.3.1:resources (default-resources) @ pbo_posttest2_rizqy ---
+skip non existing resourceDirectory E:\SEMESTER 3\PBO\PRAKTIKUM\pbo_posttest2_rizqy\src\main\resources
+
+--- compiler:3.13.0:compile (default-compile) @ pbo_posttest2_rizqy ---
+Nothing to compile - all classes are up to date.
+
+--- exec:3.1.0:exec (default-cli) @ pbo_posttest2_rizqy ---
+==============================================
+Selamat Datang di Daftar Musik Hipdut Favorit!
+==============================================
+
+===== MANAJEMEN DAFTAR MUSIK PRIBADI =====
+1. Tambah Musik
+2. Lihat Daftar Musik
+3. Ubah Musik
+4. Hapus Musik
+5. Cari Musik
+6. Keluar
+Pilih menu: 1
+Judul: After Hours
+Artis: The Weeknd
+Genre: R%B
+Musik berhasil ditambahkan.
+
+===== MANAJEMEN DAFTAR MUSIK PRIBADI =====
+1. Tambah Musik
+2. Lihat Daftar Musik
+3. Ubah Musik
+4. Hapus Musik
+5. Cari Musik
+6. Keluar
+Pilih menu: 2
+
+=== Playlist Hipdut Asik ===
+1. After Hours - The Weeknd [R%B]
+
+===== MANAJEMEN DAFTAR MUSIK PRIBADI =====
+1. Tambah Musik
+2. Lihat Daftar Musik
+3. Ubah Musik
+4. Hapus Musik
+5. Cari Musik
+6. Keluar
+Pilih menu: 5
+Masukkan judul yang dicari: YE
+Tidak ada musik dengan judul "YE".
+
+===== MANAJEMEN DAFTAR MUSIK PRIBADI =====
+1. Tambah Musik
+2. Lihat Daftar Musik
+3. Ubah Musik
+4. Hapus Musik
+5. Cari Musik
+6. Keluar
+Pilih menu: 
